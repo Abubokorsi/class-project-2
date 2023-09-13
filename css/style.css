@@ -1,0 +1,383 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.clear{
+    overflow: hidden;
+}
+.header-section{
+    background-color: #030343;
+}
+.container{
+    width: 1220px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo img{
+    width: 130px;
+    height: 130px;
+}
+.navfirst{
+    border-bottom: 1px solid white;
+}
+.navbar{
+    width: 60%;
+    float: right;
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 43px;
+    color: white;
+}
+.navbar img{
+    background-color: white;
+    border-radius: 50%;
+}
+.banner-section{
+    height: 500px;
+    background-color:#85C5D3BD, #ABADD8B0;
+}
+.banner-contain{
+    width: 40%;
+    float: left;
+    padding: 50px;
+}
+.banner-contain p{
+    margin: 20px 0px;
+} 
+.banner-contain h1{
+    font-size: 40px;
+    margin:10px 0px;
+}
+.banner-contain a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #030343;
+    color: white;
+    border-radius: 20px;
+    margin:30px 50px;
+
+}
+.banner-image{
+    width: 50%;
+    float: right;
+}
+.banner-image img{
+    width: 100%;
+    height: 480px;
+    padding: 20px 10px; 
+
+}
+.travel-type{
+    width: 900px;
+    margin: auto;
+    height: 200px;
+}
+.travel-type-images{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #030343;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    margin: 15px;
+}
+.travel-type-images img,p{
+    margin-top: 15px;
+}
+.booking{
+    height: 300px;
+    background-color: rgb(5, 246, 246);
+    padding: 50px 106px;
+    margin-bottom: 50px;
+}
+.booking-input{
+    width: 179px;
+    padding: 13px;
+    margin: 30px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: lightcyan;
+    cursor: pointer;
+}
+.booking-submit{
+    width: 150px;
+    margin: auto;
+}
+.booking-submit1{
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top:50px ;
+    border-style: none;
+    background-color:lightcyan;
+    cursor: pointer;
+    
+}
+.service-contain{
+    width: 50%;
+    float: left;
+}
+.service-contain p{
+    margin: 10px;
+    color:#030343;
+}
+.service-contain h1{
+    width: 200px;
+    margin: 10px;
+}
+.service-image{
+    width: 50%;
+    float: right;
+    height: 350px;
+}
+.service-image img{
+    width:90%;
+    height: 350px;
+}
+.service-card{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-left: 70px;
+}
+.service{
+    width: 260px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius:5px ;
+    margin: 20px;
+    text-align: justify;
+    background-color:#8edede;
+    height:350px ;
+}
+.service img{
+    width: 100px;
+    height: 100px;
+    margin: 30px 69px;
+}
+.service1{
+    position: relative;
+    bottom:160px;
+}
+.service2{
+    position: relative;
+    bottom:80px;
+}
+.section-heading{
+    text-align: center;
+    padding-top: 80px;
+    background: rgba(218, 218, 218, 0.99);
+}
+.section-heading p{
+    margin: 10px;
+}
+.section-heading h1{
+    width: 500px;
+    margin: auto;
+}
+.proudct-section{
+    background: rgba(218, 218, 218, 0.99);
+}
+.proudct-card{
+    height: 480px;
+    padding-top: 80px;
+}
+.proudct{
+    width:279px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+
+}
+.proudct-img{
+    width:259px;
+    margin-bottom: 10px;
+    height: 170px;
+}
+.proudct-last{
+    display: flex;
+    border-top:1px solid gray ;
+    padding-top: 20px;
+}
+.proudct-last h3{
+    margin-left: 30px;
+}
+.proudct-last a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 30px;
+
+}
+.aboutus-section{
+    background: linear-gradient(180deg, rgba(101, 241, 191, 0.76) 0%, rgba(101, 241, 191, 0.08) 99.67%);
+}
+.aboutus-img{
+    width: 35%;
+    float:left;
+}
+.aboutus-img img{
+    width: 90%;
+    padding: 5%;
+    border-radius: 50%;
+}
+.aboutus-contain{
+    width: 65%;
+    float:left;
+    padding-top: 30px;
+}
+.aboutus-contain h1{
+    width: 500px;
+    font-weight: 500;
+}
+.about-contain{
+    width: 50%;
+    float: left;
+}
+.about-top h1{
+    display: inline;
+    color: rgb(38, 81, 38);
+    margin:0px 10px;
+    font-weight: 900px;
+}
+.about-mid small{
+    margin:0px 17px;
+}
+.about-last a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 20px;
+    
+}
+.about-img{
+    width: 50%;
+    float: right;
+}
+.about-img img{
+    width: 100%;
+    height: 400px;
+}
+.dsection-heading{
+    height: 150px;
+    text-align: center;
+
+}
+.dsection-heading h1{
+    width: 500px;
+    margin: auto;
+}
+.destination-section{
+    height: 650px;
+    background: linear-gradient(180deg, #95F6D3 0%, rgba(149, 246, 211, 0.35) 100%);
+}
+.destination-card{
+    width: 279px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    height: 400px;
+}
+.des-img img{
+    width: 100%;
+    height: 200px;
+}
+.des-contain{
+    padding-left:10px ;
+    background-color: azure;
+    height: 190px;
+    
+}
+.des-contain h4{
+    width: 222px;
+    margin:10px 0px ;
+}
+.des-last{
+    margin: 20px 0px;
+
+}
+.customer-section{
+    background: rgba(0, 0, 0, 0.067);
+    height: 650px;
+}
+.customer{
+    width: 300px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    margin:49px;
+}
+.customer img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin:20px 80px;
+}
+.last-banner{
+    width: 340px;
+    margin: 29px;
+    float: left;
+}
+.last-banner-img img{
+    width: 100%;
+}
+.last-banner-contain{
+    position: relative;
+    bottom: 100px;
+    background-color: rgba(3, 0, 0, 0.474);
+    color: white; 
+    height: 100px;
+    text-align: center;  
+}
+.last-banner-contain h5{
+    width: 250px;
+}
+.footer-secton{
+    background: linear-gradient(180deg, #5BD2AB 0%, rgba(251, 251, 251, 0.21) 100%);
+    height: 500px;
+    padding-top: 100px;
+}
+
+.footer-1{
+    width:30%;
+    float: left;
+    position: relative;
+    bottom: 75px;
+    
+}
+ 
+.footer-2{
+    width: 15%;
+    float: left;
+}
+.footer-3{
+    width: 15%;
+    float: left;
+}
+.footer-4{
+    width: 20%;
+    float: left;
+}
+.footer-5{
+    float: left;
+    width: 239px;
+}
+.footer-5 img{
+    width: 100%;
+}
